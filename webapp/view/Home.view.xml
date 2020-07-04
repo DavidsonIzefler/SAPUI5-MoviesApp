@@ -8,6 +8,17 @@
 	xmlns:unified="sap.ui.unified">
 	<Page id="page" title="{i18n>title}" floatingFooter="true"
 		class="sapUiResponsivePadding--header sapUiResponsivePadding--content sapUiResponsivePadding--footer sapUiResponsivePadding--floatingFooter">
+		<landmarkInfo>
+			<PageAccessibleLandmarkInfo
+				rootRole="Main"
+				rootLabel="{i18n>landmarkMainPage}"
+				contentRole="Region"
+				contentLabel="{i18n>landmarkContent}"
+				footerRole="ContentInfo"
+				footerLabel="{i18n>landmarkFooter}"
+				headerRole="Region"
+				headerLabel="{i18n>title}"/>
+		</landmarkInfo>
 		<content>
 			<Image 
 				visible="{= !${device>/system/phone} }"

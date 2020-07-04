@@ -1,1 +1,15 @@
-{"type":"sap.web","builders":{"configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"projectType\":[\"sap.watt.uitools.ide.web\",\"sap.watt.uitools.ide.fiori\",\"com.sap.webide.hybrid.cordova\"],\"generation\":[{\"templateId\":\"ui5template.basicSAPUI5ApplicationProjectCommon\",\"templateVersion\":\"1.32.0\",\"dateTimeStamp\":\"Fri, 03 Jul 2020 21:37:27 GMT\"},{\"templateId\":\"ui5template.basicSAPUI5ApplicationProject\",\"templateVersion\":\"1.40.12\",\"dateTimeStamp\":\"Fri, 03 Jul 2020 21:37:31 GMT\"},{\"templateId\":\"testGenerationWizard.createteststructure\",\"templateVersion\":\"1.1.0\",\"dateTimeStamp\":\"Fri, 03 Jul 2020 21:37:47 GMT\"},{\"templateId\":\"ui5template.basicSAPUI5ApplicationComponent\",\"templateVersion\":\"1.4.0\",\"dateTimeStamp\":\"Sat, 04 Jul 2020 08:29:06 GMT\"}],\"build\":{\"targetFolder\":\"dist\",\"sourceFolder\":\"webapp\"},\"codeCheckingTriggers\":{\"notifyBeforePush\":false,\"notifyBeforePushLevel\":\"Error\",\"blockPush\":false,\"blockPushLevel\":\"Error\"},\"translation\":{\"translationDomain\":\"\",\"supportedLanguages\":\"en,fr,de\",\"defaultLanguage\":\"en\",\"defaultI18NPropertyFile\":\"i18n.properties\",\"resourceModelName\":\"i18n\"},\"basevalidator\":{\"services\":{\"json\":\"jsonValidator\",\"xml\":\"fioriXmlAnalysis\",\"js\":\"fioriJsValidator\"}},\"hybrid\":{\"hatVersion\":\"1.32.7\",\"appNamespace\":\"openSAP\"}}"]},"mixinTypes":[]}
+{
+	"type": "sap.web",
+	"builders": {
+		"configs": {}
+	},
+	"runners": {
+		"configs": {}
+	},
+	"attributes": {
+		"sap.watt.common.setting": [
+			"{\"projectType\":[\"sap.watt.uitools.ide.web\",\"sap.watt.uitools.ide.fiori\",\"com.sap.webide.hybrid.cordova\"],\"generation\":[{\"templateId\":\"ui5template.basicSAPUI5ApplicationProjectCommon\",\"templateVersion\":\"1.32.0\",\"dateTimeStamp\":\"Fri, 03 Jul 2020 21:37:27 GMT\"},{\"templateId\":\"ui5template.basicSAPUI5ApplicationProject\",\"templateVersion\":\"1.40.12\",\"dateTimeStamp\":\"Fri, 03 Jul 2020 21:37:31 GMT\"},{\"templateId\":\"testGenerationWizard.createteststructure\",\"templateVersion\":\"1.1.0\",\"dateTimeStamp\":\"Fri, 03 Jul 2020 21:37:47 GMT\"},{\"templateId\":\"ui5template.basicSAPUI5ApplicationComponent\",\"templateVersion\":\"1.4.0\",\"dateTimeStamp\":\"Sat, 04 Jul 2020 08:29:06 GMT\"}],\"build\":{\"targetFolder\":\"dist\",\"sourceFolder\":\"webapp\"},\"codeCheckingTriggers\":{\"notifyBeforePush\":false,\"notifyBeforePushLevel\":\"Error\",\"blockPush\":false,\"blockPushLevel\":\"Error\"},\"translation\":{\"translationDomain\":\"\",\"supportedLanguages\":\"en,fr,de\",\"defaultLanguage\":\"en\",\"defaultI18NPropertyFile\":\"i18n.properties\",\"resourceModelName\":\"i18n\"},\"basevalidator\":{\"services\":{\"json\":\"jsonValidator\",\"xml\":\"fioriXmlAnalysis\",\"js\":\"fioriJsValidator\"}},\"hybrid\":{\"hatVersion\":\"1.32.7\",\"appNamespace\":\"openSAP\"}}"
+		]
+	},
+	"mixinTypes": []
+}
